@@ -63,9 +63,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 .page {
-    font-size: 36px;
+    font-size: 46px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -84,7 +85,7 @@ header {
 }
 
 .header-post {
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .header-post h1 {
     font-size: 26px;
@@ -101,23 +102,41 @@ header {
     font-size: 16px;
     position: relative;
     top: 3px;
+    margin-right: 5px;
 }
 .abbout-post a {
     font-size: 14px;
     margin-right: 18px;
 }
-
-
-
-/*
-.info-post p, span {
+.abbout-post a:hover {
     color: #333;
-    font-size: 14px;
 }
-.info-post span {
+
+
+.box {
+    display: flex;
+}
+.post {
+    flex: 2;
+}
+.conteudo img {
+    background-size: contain;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.conteudo p {
     font-size: 15px;
-    top: 6px;
-    left: -15px;
-    position: absolute;
+    line-height: 28px;
+    color: #444;
+    margin-bottom: 20px;
 }
-*/
+aside {
+    flex: 1;
+    max-width: 330px;
+    margin-left: 40px;
+}
+aside div {
+    height: 300px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+}
